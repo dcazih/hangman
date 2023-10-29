@@ -172,7 +172,7 @@ def play():
             play_again = False
 
             if guesslist == wordlist:  # Checks if word was guessed
-                print(f"You WON!\nYou guessed the word {secret_word} with {attempts} remaining.")
+                print(f"You WON!\nYou guessed the word {secret_word} with {attempts} attempts remaining.")
                 play_again = True
 
             if attempts == 0:          # Checks if game was lost
